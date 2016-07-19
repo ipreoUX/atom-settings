@@ -1,0 +1,244 @@
+
+"*":
+  "accents-ui":
+    accentColor:
+      alpha: 1
+      blue: 235
+      green: 122
+      red: 0
+  "activate-power-mode":
+    autoToggle: false
+    screenShake:
+      enabled: false
+  "aligner-scss":
+    "{-enabled": true
+  "atom-beautify":
+    _analyticsUserId: "f7c973ec-3efc-4f3b-9bc7-5f229d8216cf"
+    css_newline_between_rules: true
+    css_preserve_newlines: true
+    css_selector_separator_newline: true
+    general:
+      _analyticsUserId: "ba438a76-5f4f-419f-9f3b-8b6eda48209b"
+    html_indent_inner_html: true
+  "atom-css-comb":
+    readyMadeConfigs: "zen"
+  "atom-material-ui":
+    colors:
+      abaseColor:
+        alpha: 1
+        blue: 243
+        green: 150
+        red: 33
+      predefinedColor: "Blue"
+    depth: true
+    fonts: {}
+    panelContrast: true
+  "autocomplete-plus":
+    confirmCompletion: "enter"
+  "browser-plus": {}
+  "color-picker":
+    preferredFormat: "HEX"
+  core:
+    audioBeep: false
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "preview-plus"
+      "atom-html-preview"
+      "markdown-preview-plus"
+      "project-palette-finder"
+      "tool-bar-main"
+      "terminal-panel"
+      "atom-terminal-panel"
+      "atom-terminal"
+      "aligner-css"
+      "css-comb"
+      "alignment"
+      "git-plus"
+      "welcome"
+      "package-generator"
+      "open-on-github"
+      "link"
+      "language-sql"
+      "language-shellscript"
+      "language-ruby-on-rails"
+      "language-python"
+      "language-php"
+      "language-perl"
+      "language-objective-c"
+      "language-make"
+      "language-java"
+      "language-go"
+      "language-clojure"
+      "language-c"
+      "linter-scss-lint"
+      "linter-sass-lint"
+      "flex-tool-bar"
+      "tool-bar-almighty"
+      "toolbar-iconshortcuts"
+      "atom-sort-sass"
+      "sync-settings"
+      "duplicate-removal"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      ".deployment"
+      ".gitignore"
+    ]
+    themes: [
+      "seti-ui"
+      "seti-syntax"
+    ]
+  editor:
+    autoIndentOnPaste: false
+    invisibles: {}
+    showIndentGuide: true
+  emmet: {}
+  "exception-reporting":
+    userId: "7b3dd5a3-7ff1-1a54-6b4b-a3782b142791"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  "find-and-replace":
+    openProjectFindResultsInRightPane: true
+  "fuzzy-finder":
+    searchAllPanes: true
+  "git-plus": {}
+  "git-projects":
+    rootPath: "/Users/josheaster/desktop/git-repos"
+  "html2jade-plus": {}
+  "isotope-ui":
+    backgroundImagePath: "atom://isotope-ui/resources/images/radBG.jpg"
+    customBackgroundColor: true
+    customBackgroundColorPicker:
+      alpha: 1
+      blue: 37
+      green: 37
+      red: 37
+    fontWeight: "Regular"
+  linter:
+    errorPanelHeight: 58
+  "linter-stylelint":
+    disableWhenNoConfig: true
+    enableHtmlLinting: true
+    useStandard: true
+  "markdown-preview-plus": {}
+  "markdown-writer": {}
+  minimap: {}
+  navigate:
+    dblclk: true
+    newwindow: true
+  "open-terminal-here":
+    command: "open -a iTerm.app \"$PWD\""
+  pigments:
+    extendAutocompleteToVariables: true
+    groupPaletteColors: "by file"
+    mergeColorDuplicates: true
+  "project-palette-finder":
+    paletteDisplay: "grid"
+  "seti-ui":
+    displayIgnored: false
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  "terminal-plus":
+    core: {}
+    style:
+      theme: "ocean"
+  "tool-bar":
+    position: "Right"
+  "tool-bar-config": [
+    {
+      icon: "navicon-round"
+      iconSet: "ion"
+      title: "Toggle Command Palette"
+      callback: "command-palette:toggle"
+    }
+    {
+      icon: "ios-pulse-strong"
+      iconSet: "ion"
+      title: "Git time machine"
+      callback: "git-time-machine:toggle"
+    }
+    {
+      icon: "flash"
+      iconSet: "ion"
+      title: "Start Server"
+      callback: "atom-live-server:start-3000"
+    }
+    {
+      icon: "sass-original"
+      callback: "cssfmt:execute"
+      title: "Format sass"
+      iconSet: "devicon"
+    }
+    {
+      icon: "ios-grid-view-outline"
+      callback: "atom-alignment:align"
+      title: "Align"
+      iconSet: "ion"
+    }
+    {
+      icon: "gulp-plain"
+      callback: "bottom-dock:toggle"
+      title: "Open bottom dock"
+      iconSet: "devicon"
+    }
+    {
+      icon: "spacer"
+    }
+    {
+      icon: "search"
+      iconSet: "ion"
+      title: "Find in Buffer"
+      callback: "find-and-replace:show"
+    }
+    {
+      icon: "ios-star"
+      iconSet: "ion"
+      title: "Beautify"
+      callback: "atom-beautify:beautify-editor"
+    }
+    {
+      icon: "spacer"
+    }
+    {
+      icon: "ios-gear"
+      iconSet: "ion"
+      title: "Open Settings View"
+      callback: "settings-view:open"
+    }
+    {
+      icon: "terminal"
+      callback: "terminal-plus:toggle"
+      title: "Toggle terminal"
+      iconSet: ""
+    }
+    {
+      icon: "spacer"
+    }
+    {
+      icon: "ios-refresh"
+      iconSet: "ion"
+      title: "Reload Window"
+      callback: "window:reload"
+    }
+  ]
+  welcome:
+    showOnStartup: false
