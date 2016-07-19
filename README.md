@@ -12,7 +12,7 @@ Note: This will wipe out any existing Atom configurations that you have.
 
 ```bash
 mv ~/.atom ~/.atom_bak
-git clone git@github.com/ipreoUX/atom-settings.git ~/.atom
+git clone https://github.com/ipreoUX/atom-settings.git ~/.atom
 ```
 
 Install the Atom packages by running:
@@ -26,3 +26,5 @@ If you add or update an Atom package, update the `package-list.txt` file:
 ```
 apm list --installed --bare > ~/.atom/package-list.txt
 ```
+
+Also including a .stylelintrc include in the root of the project
